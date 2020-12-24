@@ -13,6 +13,8 @@
 		CE81886525943FE4000AE92C /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CE81886325943FE4000AE92C /* Main.storyboard */; };
 		CE81886725943FE7000AE92C /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CE81886625943FE7000AE92C /* Assets.xcassets */; };
 		CE81886A25943FE7000AE92C /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CE81886825943FE7000AE92C /* LaunchScreen.storyboard */; };
+		CE8188752594D99E000AE92C /* SecondViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE8188732594D99E000AE92C /* SecondViewController.swift */; };
+		CE8188762594D99E000AE92C /* SecondViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = CE8188742594D99E000AE92C /* SecondViewController.xib */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +26,8 @@
 		CE81886625943FE7000AE92C /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		CE81886925943FE7000AE92C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		CE81886B25943FE7000AE92C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		CE8188732594D99E000AE92C /* SecondViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SecondViewController.swift; sourceTree = "<group>"; };
+		CE8188742594D99E000AE92C /* SecondViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = SecondViewController.xib; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -60,6 +64,8 @@
 				CE81885F25943FE4000AE92C /* SceneDelegate.swift */,
 				CE81886125943FE4000AE92C /* ViewController.swift */,
 				CE81886325943FE4000AE92C /* Main.storyboard */,
+				CE8188732594D99E000AE92C /* SecondViewController.swift */,
+				CE8188742594D99E000AE92C /* SecondViewController.xib */,
 				CE81886625943FE7000AE92C /* Assets.xcassets */,
 				CE81886825943FE7000AE92C /* LaunchScreen.storyboard */,
 				CE81886B25943FE7000AE92C /* Info.plist */,
@@ -124,6 +130,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				CE8188762594D99E000AE92C /* SecondViewController.xib in Resources */,
 				CE81886A25943FE7000AE92C /* LaunchScreen.storyboard in Resources */,
 				CE81886725943FE7000AE92C /* Assets.xcassets in Resources */,
 				CE81886525943FE4000AE92C /* Main.storyboard in Resources */,
@@ -137,6 +144,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				CE8188752594D99E000AE92C /* SecondViewController.swift in Sources */,
 				CE81886225943FE4000AE92C /* ViewController.swift in Sources */,
 				CE81885E25943FE4000AE92C /* AppDelegate.swift in Sources */,
 				CE81886025943FE4000AE92C /* SceneDelegate.swift in Sources */,
